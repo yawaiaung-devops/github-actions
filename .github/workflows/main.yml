@@ -21,3 +21,4 @@ jobs:
       - name: Check Bat version
         run: |
           bats -v
+
