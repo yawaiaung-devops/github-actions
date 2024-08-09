@@ -15,7 +15,7 @@ jobs:
         - 80
       volumes:
         - docker_volume:/volume_mount
-      options: --cpus i
+      options: --cpus 1
     steps:
       - name: Check for docekr env file
         run: (ls /.dockerenv && echo found dockerenv) || (echo No Dockerenv)
