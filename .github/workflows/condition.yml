@@ -7,7 +7,7 @@ on:
         required: true
 jobs:
   conditional-actions:
-    if: github.repository == 'yawaiaung-devops/github-action'
+    if: github.repository == 'yawaiaung-devops/github-actions'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
